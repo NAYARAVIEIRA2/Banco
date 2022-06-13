@@ -1,0 +1,14 @@
+
+public class ContaPoupanca extends Conta {
+
+	
+	
+	public ContaPoupanca(String cliente, double saldo, int agencia, int numero) {
+		super(cliente, saldo, agencia, numero);
+
+	}
+	
+public boolean sacar(double valor ) {
+	     saldo = saldo-valor;
+}
+}
